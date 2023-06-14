@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionário Magius</title>
+    <link
+      rel="icon"
+      href="https://83901a.p3cdn1.secureserver.net/wp-content/uploads/2020/06/cropped-favicon-192x192.png"
+      sizes="192x192"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        decoding="async"
+        loading="lazy"
+        width="300"
+        height="auto"
+        src="https://83901a.p3cdn1.secureserver.net/wp-content/uploads/2020/06/Logo_Magius.svg"
+        alt="Magius - Metalúrgica Industrial"
+        title="Magius - Metalúrgica Industrial"
+        class="wp-image-39"
+      />
+
+      <ul class="navegação">
+        <li class="item1"><a href="#">HOME</a></li>
+        <li class="item2"><a href="#">MAGIUS</a></li>
+        <li class="item3"><a href="#">CONTATO</a></li>
+      </ul>
+    </header>
+
+    <section class="info">
+      <div class="text">
+        <p>Caros colaboradores,</p>
+        <p>
+          A aplicação desse questionário tem como objetivo principal entender
+          melhor como vocês se sentem em relação à empresa, ao trabalho que
+          desempenham e ao ambiente em que trabalham. Com essas informações em
+          mãos, poderemos identificar áreas que precisam de melhoria, realizar
+          ajustes necessários em nossas políticas e práticas organizacionais e,
+          consequentemente, melhorar a satisfação e retenção de talentos.
+        </p>
+        <p>
+          É importante ressaltar que as informações coletadas serão
+          confidenciais e anônimas, o que significa que não será possível
+          identificar individualmente as respostas de cada colaborador. Queremos
+          que todos se sintam à vontade para responder honestamente e fornecer
+          feedback sincero, sem receio de represálias ou julgamentos.
+        </p>
+        <p>
+          Agradecemos antecipadamente por sua participação nessa iniciativa e
+          esperamos que o questionário empresarial nos ajude a melhorar ainda
+          mais como empresa e como empregadores. Estamos sempre abertos a
+          sugestões e críticas construtivas e esperamos poder trabalhar juntos
+          para criar um ambiente de trabalho ainda mais positivo e produtivo.
+        </p>
+
+        <div class="div-botao">
+          <button id="botao" onclick="abrirPopUp()">
+            REALIZAR O QUESTIONARIO
+          </button>
+        </div>
+      </div>
+
+      <div class="survey">
+        <img src="./customer-survey-cuate.png" alt="customer survey image" />
+      </div>
+    </section>
+
+    <div id="pop-up">
+      <div class="quest">
+        <form id="myForm">
+          <!--Isso é o botão de fechar de dentro do questionario-->
+          <div class="div-botao-fechar">
+            <button id="fechar" onclick="fecharPopUp()">X</button>
+          </div>
+
+          <!--Inicio das perguntas-->
+
+          <fieldset>
+            <legend>
+              1.Como você classifica a preocupação da empresa com a segurança e
+              saúde dos funcionarios?
+            </legend>
+
+            <div class="div-radio">
+              <input type="radio" id="p1-1" name="p1" value="Ruim" required />
+              <label for="p1-1">Ruim</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p1-2"
+                name="p1"
+                value="Regular"
+                required
+              />
+              <label for="p1-2">Regular</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p1-3" name="p1" value="Bom" required />
+              <label for="p1-3">Bom</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p1-4" name="p1" value="Ótimo" required />
+              <label for="p1-4"> Ótimo</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p1-5"
+                name="p1"
+                value="Excelente"
+                required
+              />
+              <label for="p1-5">Excelente</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              2.A organização oferece flexibilidade de horários e local de
+              trabalho?
+            </legend>
+
+            <div class="div-radio">
+              <input type="radio" id="p2-1" name="p2" value="Sim" required />
+              <label for="p2-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p2-2" name="p2" value="Não" required />
+              <label for="p2-2">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              3.A política da empresa em relação ao ambiente de trabalho, como a
+              iluminação, temperatura, mobiliário e equipamentos, pode ser
+              considerada como?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p3-1" name="p3" value="Ruim" required />
+              <label for="p3-1">Ruim</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p3-2"
+                name="p3"
+                value="Regular"
+                required
+              />
+              <label for="p3-2">Regular</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p3-3" name="p3" value="Bom" required />
+              <label for="p3-3">Bom</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p3-4" name="p3" value="Ótimo" required />
+              <label for="p3-4"> Ótimo</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p3-5"
+                name="p3"
+                value="Excelente"
+                required
+              />
+              <label for="p3-5">Excelente</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              4.Como pode ser classificado sobre os informativos, novidades
+              emudanças na empresa?
+            </legend>
+
+            <div class="div-radio">
+              <input type="radio" id="p4-1" name="p4" value="Ruim" required />
+              <label for="p4-1">Ruim</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p4-2"
+                name="p4"
+                value="Regular"
+                required
+              />
+              <label for="p4-2">Regular</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p4-3" name="p4" value="Bom" required />
+              <label for="p4-3">Bom</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p4-4" name="p4" value="Ótimo" required />
+              <label for="p4-4"> Ótimo</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p4-5"
+                name="p4"
+                value="Excelente"
+                required
+              />
+              <label for="p4-5">Excelente</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              5.A política de comunicação da empresa em relação a feedback e
+              sugestões dos funcionários, pode ser considerada como?
+            </legend>
+
+            <div class="div-radio">
+              <input type="radio" id="p5-1" name="p5" value="Ruim" required />
+              <label for="p5-1">Ruim</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p5-2"
+                name="p5"
+                value="Regular"
+                required
+              />
+              <label for="p5-2">Regular</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p5-3" name="p5" value="Bom" required />
+              <label for="p5-3">Bom</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p5-4" name="p5" value="Ótimo" required />
+              <label for="p5-4"> Ótimo</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p5-5"
+                name="p5"
+                value="Excelente"
+                required
+              />
+              <label for="p5-5">Excelente</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              6.A empresa incentiva a comunicação transparente e aberta entre os
+              membros da equipe?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p6-1" name="p6" value="Ruim" required />
+              <label for="p6-1">Ruim</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p6-2"
+                name="p6"
+                value="Regular"
+                required
+              />
+              <label for="p6-2">Regular</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p6-3" name="p6" value="Bom" required />
+              <label for="p6-3">Bom</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p6-4" name="p6" value="Ótimo" required />
+              <label for="p6-4"> Ótimo</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p6-5"
+                name="p6"
+                value="Excelente"
+                required
+              />
+              <label for="p6-5">Excelente</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              7.Essa comunicação transparente e aberta, é aplicada na prática ou
+              isso não ocorre?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p7-1" name="p7" value="Sim" required />
+              <label for="p7-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p7-2" name="p7" value="Não" required />
+              <label for="p7-2">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              8.Como você classifica o foco da organização em termos de
+              resultados e metas a serem alcançadas?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p8-1" name="p8" value="Ruim" required />
+              <label for="p8-1">Ruim</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p8-2"
+                name="p8"
+                value="Regular"
+                required
+              />
+              <label for="p8-2">Regular</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p8-3" name="p8" value="Bom" required />
+              <label for="p8-3">Bom</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p8-4" name="p8" value="Ótimo" required />
+              <label for="p8-4"> Ótimo</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p8-5"
+                name="p8"
+                value="Excelente"
+                required
+              />
+              <label for="p8-5">Excelente</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              9.A empresa mede o desempenho dos funcionários em relação aos
+              objetivos definidos?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p9-1" name="p9" value="Sim" required />
+              <label for="p9-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p9-2" name="p9" value="Não" required />
+              <label for="p9-2">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              10.A organização oferece incentivos e reconhecimento para aqueles
+              que alcançam seus objetivos?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p10-1" name="p10" value="Sim" required />
+              <label for="p10-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p10-2" name="p10" value="Não" required />
+              <label for="p10-2">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              11.De 0 à 5 qual é o nível de confiança você percebe entre os
+              membros da equipe e a liderança da empresa?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p11-1" name="p11" value="0" required />
+              <label for="p11-1">0</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p11-2" name="p11" value="1" required />
+              <label for="p11-2">1</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p11-3" name="p11" value="2" required />
+              <label for="p11-3">2</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p11-4" name="p11" value="3" required />
+              <label for="p11-4"> 3</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p11-5" name="p11" value="4" required />
+              <label for="p11-5">4</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p11-6" name="p11" value="5" required />
+              <label for="p11-6">5</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              12.Você percebe que a empresa se preocupa em criar um ambiente
+              onde os funcionários sintam que são valorizados e respeitados?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p12-1" name="p12" value="Sim" required />
+              <label for="p12-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p12-2" name="p12" value="Não" required />
+              <label for="p12-2">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              13.Você conhece quais são as políticas da empresa em relação à
+              discriminação e assédio no ambiente de trabalho?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p13-1" name="p13" value="Sim" required />
+              <label for="p13-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p13-2" name="p13" value="Não" required />
+              <label for="p13-2">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              14.A organização oferece treinamentos e oportunidades para
+              aumentar a conscientização sobre a diversidade?
+            </legend>
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p14-1"
+                name="p14"
+                value="Sim, regularmente"
+                required
+              />
+              <label for="p14-1">Sim, regularmente</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p14-2"
+                name="p14"
+                value="Sim, ocasionalmente"
+                required
+              />
+              <label for="p14-2">Sim, ocasionalmente</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p14-3"
+                name="p14"
+                value="Não oferece"
+                required
+              />
+              <label for="p14-3">Não oferece</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              15.Como considera as políticas da empresa em relação a conflitos e
+              desentendimentos entre membros da equipe?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p15-1" name="p15" value="Ruim" required />
+              <label for="p15-1">Ruim</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p15-2"
+                name="p15"
+                value="Regular"
+                required
+              />
+              <label for="p15-2">Regular</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p15-3" name="p15" value="Bom" required />
+              <label for="p15-3">Bom</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p15-4"
+                name="p15"
+                value="Ótimo"
+                required
+              />
+              <label for="p15-4"> Ótimo</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p15-5"
+                name="p15"
+                value="Excelente"
+                required
+              />
+              <label for="p15-5">Excelente</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              16.A organização oferece oportunidades para o desenvolvimento de
+              habilidades de liderança e colaboração?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p16-1" name="p16" value="Sim" required />
+              <label for="p16-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p16-2" name="p16" value="Não" required />
+              <label for="p16-2">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              17.A empresa oferece oportunidades de crescimento e
+              desenvolvimento profissional para seus funcionários?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p17-1" name="p17" value="Sim" required />
+              <label for="p17-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p17-2" name="p17" value="Não" required />
+              <label for="p17-2">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              18.Como a organização ajuda seus funcionários a desenvolver suas
+              habilidades e competências?
+            </legend>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p18-1"
+                name="p18"
+                value="Sim, investe em treinamentos e capacitação"
+                required
+              />
+              <label for="p18-1"
+                >Sim, investe em treinamentos e capacitação</label
+              >
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p18-2"
+                name="p18"
+                value="Não é realizado esse auxílio para os colaboradores"
+                required
+              />
+              <label for="p18-2"
+                >Não é realizado esse auxílio para os colaboradores</label
+              >
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              19.A empresa oferece programas de treinamento e desenvolvimento
+              para seus funcionários?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p19-1" name="p19" value="Sim" required />
+              <label for="p19-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p19-2" name="p19" value="Não" required />
+              <label for="p19-2">Não</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p19-3"
+                name="p19"
+                value="As vezes"
+                required
+              />
+              <label for="p19-3">As vezes</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              20.Como a empresa define a remuneração e benefícios oferecidos aos
+              funcionários?
+            </legend>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p20-1"
+                name="p20"
+                value="Por mérito"
+                required
+              />
+              <label for="p20-1">Por mérito</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p20-2"
+                name="p20"
+                value="Por tempo de casa"
+                required
+              />
+              <label for="p20-2">Por tempo de casa</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p20-3"
+                name="p20"
+                value="Por nível técnico"
+                required
+              />
+              <label for="p20-3">Por nível técnico</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              21.Quais são as políticas da empresa em relação a aumentos
+              salariais e promoções?
+            </legend>
+
+            <div class="div-radio">
+              <input type="radio" id="p21-1" name="p21" value="Sim" required />
+              <label for="p21-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p21-2" name="p21" value="Não" required />
+              <label for="p21-2">Não</label>
+            </div>
+
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p21-3"
+                name="p21"
+                value="As vezes"
+                required
+              />
+              <label for="p21-3">As vezes</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              22.A organização oferece benefícios adicionais, como seguro saúde,
+              previdência privada ou licença maternidade/paternidade estendida?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p22-1" name="p22" value="Sim" required />
+              <label for="p22-1">Sim</label>
+            </div>
+
+            <div class="div-radio">
+              <input type="radio" id="p22-2" name="p22" value="Não" required />
+              <label for="p22-2">Não</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              23.Como a liderança da empresa aborda questões de gestão de equipe
+              e tomada de decisão?
+            </legend>
+            <div class="div-radio">
+              <input type="radio" id="p23-1" name="p23" value="Boa" required />
+              <label for="p23-1">Boa</label>
+            </div>
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p23-2"
+                name="p23"
+                value="Média"
+                required
+              />
+              <label for="p23-2">Média</label>
+            </div>
+            <div class="div-radio">
+              <input type="radio" id="p23-3" name="p23" value="Ruim" required />
+              <label for="p23-3">Ruim</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              24.Qual é o estilo de liderança predominante na organização?
+            </legend>
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p24-1"
+                name="p24"
+                value="Democrática"
+                required
+              />
+              <label for="p24-1">Democrática</label>
+            </div>
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p24-2"
+                name="p24"
+                value="Liberal"
+                required
+              />
+              <label for="p24-2">Liberal</label>
+            </div>
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p24-3"
+                name="p24"
+                value="Afetiva"
+                required
+              />
+              <label for="p24-3">Afetiva</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              25.Como a liderança da empresa lida com situações de conflito ou
+              desafios?
+            </legend>
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p25-1"
+                name="p25"
+                value="Resolução de conflitos"
+                required
+              />
+              <label for="p25-1">Resolução de conflitos</label>
+            </div>
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p25-2"
+                name="p25"
+                value="Cultura de diálogo respeitoso"
+                required
+              />
+              <label for="p25-2">Cultura de diálogo respeitoso</label>
+            </div>
+            <div class="div-radio">
+              <input
+                type="radio"
+                id="p25-3"
+                name="p25"
+                value="Ações para evitar conflitos"
+                required
+              />
+              <label for="p25-3">Ações para evitar conflitos</label>
+            </div>
+          </fieldset>
+
+          <!--Fim das perguntas-->
+          <button type="submit" id="enviar">Enviar</button>
+          <!--Isso é o botão de enviar de dentro do questionario-->
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>Informações</p>
+      <p>
+        Endereço: R. David Campista, 1385 - Afonso Pena, São José dos Pinhais -
+        PR, 83045-060
+      </p>
+      <p>Telefone: (41)2169-9400</p>
+      <p>Email: MAGIUS@MAGIUS.COM.BR</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
